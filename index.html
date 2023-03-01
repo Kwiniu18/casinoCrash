@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+    
+
+    <div class="container" style="width: 100%;">
+
+        <nav>
+
+                <div class="money-box" id="money-box">
+
+                    <h2 id="player-money">$</h2>
+
+                </div>
+
+
+        </nav>
+
+
+
+        <div class="title">
+            <h1>C R A S H</h1>
+        </div>
+
+        <div class="left">
+
+            <p id="account"></p>
+
+        <div class="input">
+        <input id="money-input" type="text" placeholder="your bet. . .">
+
+            </div>
+
+        
+
+        
+        <div class="buttons">
+
+            <br>
+            <section id="otherbtn">
+            <button id="betmax" onclick="maxBet()">MAX</button>
+            <button id="betmax" onclick="halfBet()">1/2</button>
+            <button id="betmax" onclick="qtrBet()">1/4</button>
+            <!-- <button id="betmax" onclick="halfBet()">LAST</button> -->
+            <section>
+                <button onclick="withdraw()" id="withdraw" style="display: none;">WITHDRAW</button>
+                <button id="betbtn" onclick="crash()">BET</button>
+        </div>
+
+        <div class="bet">
+            <p id="bet"> </p>
+        </div>
+
+        <div class="win">
+
+            <p id="win"></p>
+
+        </div>
+        
+
+
+        </div>
+        <div class="right">
+
+            <div class="crash-container">
+
+                <p id="crash-value"> 0.00x </p>
+            </div>
+            
+
+
+
+        </div>
+
+
+
+
+
+       
+
+
+
+
+        </div>
+    
+
+
+    </div>
+
+
+
+    </div>
+
+
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+      
+
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+      
+  
+    
+        .input{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            margin-top: 30px;
+        }
+       
+        .bet{
+            text-align: center;
+        }
+        
+        .buttons{
+            text-align: center;
+        }
+        #account{
+            text-align: center;
+            font-size: 20px;
+        }
+     
+
+    </style>
+    <script src="crash.js"></script>
+    <script>   
+
+
+        
+
+    </script>
+
+
+</body>
+</html>
